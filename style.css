@@ -18,10 +18,14 @@ body {
 /* Card */
 .card {
     background-color: var(--card-bg);
-    padding: 20px;
-    width: 300px;
+    padding: 25px;
+    width: 310px;
+    height: 556px;
     border-radius: 15px;
-    margin: 5% auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 /* Image */
@@ -76,6 +80,7 @@ body {
 
 .infoContent ul li {
     display: flex;
+    width: 100px;
 }
 .infoContent ul li span {
     margin-left: 5px;
@@ -86,7 +91,7 @@ body {
 
 /* Line */ 
 hr {
-    border-color: var(--softblue);
+    border-color: transparent transparent var(--line);
 }
 
 /* Author */
